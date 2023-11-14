@@ -21,6 +21,12 @@ export const LOGO_IMAGE = {
 
 export const SOCIALS: SocialObjects = [
   {
+    name: "Twitter",
+    href: "https://twitter.com/maxgreive",
+    linkTitle: `${SITE.title} on Twitter`,
+    active: true,
+  },
+  {
     name: "Github",
     href: "https://github.com/maxgreive",
     linkTitle: ` ${SITE.title} on Github`,
@@ -39,22 +45,10 @@ export const SOCIALS: SocialObjects = [
     active: false,
   },
   {
-    name: "LinkedIn",
-    href: "https://www.linkedin.com/in/maxgreive/",
-    linkTitle: `${SITE.title} on LinkedIn`,
-    active: true,
-  },
-  {
     name: "Mail",
     href: "mailto:yourmail@gmail.com",
     linkTitle: `Send an email to ${SITE.title}`,
     active: false,
-  },
-  {
-    name: "Twitter",
-    href: "https://twitter.com/maxgreive",
-    linkTitle: `${SITE.title} on Twitter`,
-    active: true,
   },
   {
     name: "Twitch",
@@ -96,6 +90,12 @@ export const SOCIALS: SocialObjects = [
     name: "CodePen",
     href: "https://codepen.io/maxgreive",
     linkTitle: `${SITE.title} on CodePen`,
+    active: true,
+  },
+  {
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/in/maxgreive/",
+    linkTitle: `${SITE.title} on LinkedIn`,
     active: true,
   },
   {
